@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Dinosaur data REST API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,6 @@
   "homepage": "https://github.com/rakhadjo/tyrannosaurus.rest#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
