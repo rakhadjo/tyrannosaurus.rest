@@ -1,4 +1,5 @@
 # 🦕 <i>tyrannosaurus.rest</i> 🦖
+[![Build Status](https://travis-ci.com/rakhadjo/tyrannosaurus.rest.svg?branch=master)](https://travis-ci.com/rakhadjo/tyrannosaurus.rest)
 
 The Dinosaur Rest API, because why the hell not? <br /><br />
 The word 'dinosaur' originates from the Greek words <i>deinos</i> meaning 'terrible' and <i>sauros</i> meaning 'lizard'.
