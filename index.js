@@ -1,5 +1,6 @@
 import Express from "express";
 import fs from "fs";
+import dinobase from "./dinosaurs.js"
 
 let about_txt;
 fs.readFile("./static_content/about.txt", "utf8", (err, data) => {
@@ -31,7 +32,12 @@ app.get("/endpoints", (req, res) => {
 })
 
 app.get("/dinosaur/:dinoName", (req, res) => {
-    res.send(req.params)
+    dinobase.forEach(dino => {
+        if (dino.name == req.params.dinoName) {
+            res.json(dino)
+        }
+    })
+    res.send("lol gay")
 })
 
 app.listen(port, () => {})
