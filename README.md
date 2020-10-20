@@ -9,7 +9,7 @@ I hope by categorizing information in this API through endpoints, a clearer pict
 
 ## Usage & Deploying
 
-...needs work...
+Assuming you've got `npm` and `NodeJS` installed already on your machine
 
 ## Endpoints
 
