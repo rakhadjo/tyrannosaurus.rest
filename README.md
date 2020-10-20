@@ -9,7 +9,13 @@ I hope by categorizing information in this API through endpoints, a clearer pict
 
 ## Usage & Deploying
 
-Assuming you've got `npm` and `NodeJS` installed already on your machine
+Assuming you've got `npm` and `Node` installed on your machine: <br />
+1. `git clone https://github.com/rakhadjo/tyrannosaurus.rest.git`
+2. `cd tyrannosaurus.rest`
+3. `npm install`
+4. `npm start`
+<br />
+By default I set the app to run on `localhost:1212`.
 
 ## Endpoints
 
