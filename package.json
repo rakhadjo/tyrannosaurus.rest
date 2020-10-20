@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -23,6 +23,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "jest": "^26.6.0",
     "nodemon": "^2.0.4"
   }
 }
