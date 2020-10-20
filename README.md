@@ -38,7 +38,7 @@ Currently supported endpoints to substitute `{dino-name}`:
 
 ```
  .
- ├── x
+ ├── allosaurus
  ├── x
  ├── x
  ├── x
@@ -47,18 +47,25 @@ Currently supported endpoints to substitute `{dino-name}`:
 
 #### Categorized by Era
 
-#### Return Type (to be done later)
+...needs work...
 
-In all cases, the return type will be as follows:
+#### Return Type
+
+In most cases, the return type will be as follows:
 
 ```json
-{
-  "name": "dino-name",
-  "diet": "food-type",
-  "era": "jurrasic, triassic, etc."
+{ 
+   "name": "",
+   "is_dino": "",
+   "diet": "",
+   "era": "",
+   "found": "",
+   "avg_weight_kg": "",
+   "avg_length_m": "",
+   "movement": ""
 }
 ```
-
+Data is retrieved from `dinosaurs.js` supposedly located in the root directory. 
 ### Developer
 
 #### `/about`
