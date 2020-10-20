@@ -30,4 +30,8 @@ app.get("/endpoints", (req, res) => {
     res.end(endpoints)
 })
 
+app.get("/dinosaur/:dinoName", (req, res) => {
+    res.send(req.params)
+})
+
 app.listen(port, () => {})
