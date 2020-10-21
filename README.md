@@ -17,6 +17,10 @@ Assuming you've got `npm` and `Node` installed on your machine: <br />
 
 By default I set the app to run on `localhost` port `1212`
 
+### Tech Stack
+
+ExpressJS for the API, JEST for unit testing, Python for Web Scraping
+
 ## Endpoints
 
 tyrannosaurus.rest only accepts `GET` requests.
@@ -34,7 +38,7 @@ The first way is to simply substitute the dinosaur name:
 `GET (host)/dinosaur/{dino-name}`
 <br />
 
-Currently supported endpoints to substitute `{dino-name}` can be found in `static_content/endpoints.js`
+Currently supported endpoints to substitute `{dino-name}` can be found in [`static_content/endpoints.js`](./static_content/endpoints.js)
 
 #### Categorized by Era
 
