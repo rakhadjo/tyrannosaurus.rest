@@ -14,8 +14,8 @@ Assuming you've got `npm` and `Node` installed on your machine: <br />
 2. `cd tyrannosaurus.rest`
 3. `npm install`
 4. `npm start`
-<br />
-By default I set the app to run on `localhost:1212`.
+
+By default I set the app to run on `localhost` port `1212`
 
 ## Endpoints
 
@@ -34,16 +34,7 @@ The first way is to simply substitute the dinosaur name:
 `GET (host)/dinosaur/{dino-name}`
 <br />
 
-Currently supported endpoints to substitute `{dino-name}`:
-
-```
- .
- ├── allosaurus
- ├── x
- ├── x
- ├── x
- └── x
-```
+Currently supported endpoints to substitute `{dino-name}` can be found in `static_content/endpoints.js`
 
 #### Categorized by Era
 
