@@ -37,7 +37,7 @@ app.get("/dinosaur/:dinoName", (req, res) => {
             res.json(dino)
         }
     })
-    res.send("lol gay")
+    res.send("not found")
 })
 
 app.listen(port, () => {})
