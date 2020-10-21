@@ -23,29 +23,6 @@ for dinosaur in dinos:
         'p', 'dinosaurfilter--name dinosaurfilter--name-unhyphenated').get_text()
     dino_names.append(name.strip().lower())
 
-# part 2: dinosaur fields
-# url model for the field types
-fields_collection = []
-model = 'https://www.nhm.ac.uk/discover/dino-directory/'
-for n in dino_names:
-    fields = {
-        "name": "",
-        "diet": "",
-        "era": "",
-        "found": "",
-        "avg_weight_kg": "",
-        "avg_length_m": "",
-        "movement": ""
-    }
-    link = model + n
-    html2 = requests.get(link).text
-    parsed_html2 = BeautifulSoup(html2, features='html.parser')
-    container1 = parsed_html2.find('dl', 'dinosaur--description dinosaur--list')
-    container2 = parsed_html2.find('dl', 'dinosaur--info dinosaur--list')
-    fields['avg_length_m'] = 'xx'
-    print(fields)
-    print("FUCK YOU CHARLIE")
-    print(container2)
-    break
+
 # profit
 # print(dino_names)
