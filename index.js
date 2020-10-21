@@ -40,4 +40,8 @@ app.get("/dinosaur/:dinoName", (req, res) => {
     res.send("not found")
 })
 
+app.get("/random", (req, res) => {
+    res.send(dinobase[Math.floor(Math.random() * dinobase.length)])
+})
+
 app.listen(port, () => {})
