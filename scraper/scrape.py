@@ -20,7 +20,7 @@ dino_names = []
 for dinosaur in dinos:
     name = dinosaur.find(
         'p', 'dinosaurfilter--name dinosaurfilter--name-unhyphenated').get_text()
-    dino_names.append(name.strip())
+    dino_names.append(name.strip().lower())
 
 # profit
 print(dino_names)
